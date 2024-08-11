@@ -46,8 +46,7 @@ const GroupLikeNode = ({ x, y, node, selected }: Props) => {
         height={contentSize[1]}
         rx={GRAPH_NODE_BORDER_RADIUS}
         ry={GRAPH_NODE_BORDER_RADIUS}
-        stroke={palette.accents_3}
-        className="transparent-fill second-stroke"
+        className="transparent-fill"
       >
         {nodeChildren.length > 0 && (
           <>
