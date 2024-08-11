@@ -36,7 +36,6 @@ const GroupLikeNode = ({ x, y, node, selected }: Props) => {
   const contentY = y + (boxSize[1] - contentSize[1]) / 2
   return (
     <>
-      <NameAndQuantifier x={x} y={y} node={node} size={size} />
       <Content
         id={node.id}
         selected={selected}
