@@ -1,7 +1,7 @@
 FROM node:16
 
 # Install pnpm
-RUN npm install -g pnpm
+RUN npm install -g pnpm@8
 
 # Set the working directory
 WORKDIR /app
