@@ -36,7 +36,6 @@ const GroupLikeNode = ({ x, y, node, selected }: Props) => {
   const contentY = y + (boxSize[1] - contentSize[1]) / 2
   return (
     <>
-      <NameAndQuantifier x={x} y={y} node={node} size={size} />
       <Content
         id={node.id}
         selected={selected}
@@ -46,8 +45,7 @@ const GroupLikeNode = ({ x, y, node, selected }: Props) => {
         height={contentSize[1]}
         rx={GRAPH_NODE_BORDER_RADIUS}
         ry={GRAPH_NODE_BORDER_RADIUS}
-        stroke={palette.accents_3}
-        className="transparent-fill second-stroke"
+        className="transparent-fill"
       >
         {nodeChildren.length > 0 && (
           <>

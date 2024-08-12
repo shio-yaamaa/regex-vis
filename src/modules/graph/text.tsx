@@ -20,7 +20,7 @@ const assertionTextMap = {
 
 const renderString = (value: string) => (
   <div className="text">
-    <span className="with-quote">{value}</span>
+    <span>{value}</span>
   </div>
 )
 
